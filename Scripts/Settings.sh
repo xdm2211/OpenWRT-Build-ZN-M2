@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#移除luci-app-attendedsysupgrade
+sed -i "/attendedsysupgrade/d" $(find ./feeds/luci/collections/ -type f -name "Makefile")
+
 # 1. 基础系统设置 (IP地址与主机名)
 CFG_FILE="./package/base-files/files/bin/config_generate"
 
