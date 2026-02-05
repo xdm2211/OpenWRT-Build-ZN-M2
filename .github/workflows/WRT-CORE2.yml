@@ -228,7 +228,7 @@ jobs:
           tag_name: 精简版${{env.WRT_CONFIG}}-${{env.WRT_INFO}}-${{env.WRT_BRANCH}}-${{env.WRT_DATE}}
           files: ./wrt/upload/*.*
           body: |
-            这是个ZN-M2无WiFi无usb的固件包！
+            这是个ZN-M2无WiFi的固件包！
             请注意选择，不要选错！
             不要问，刷就完事了！
 
